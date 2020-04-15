@@ -1,0 +1,21 @@
+list1= [1330,133,10,"Guava","Mango","puppy",True]
+tuple1=(82,"3322",44,"000","Never","month","Date","year")
+dict1={
+    "1":"one",
+    "2":"two",
+    "3":"Dies",
+    "4":"3131",
+    "5":422
+}
+
+print(list1)
+print(tuple1)
+print(dict1)
+print()
+print("Assigning a list element:")
+print(list1[-1])
+print("Assigning a tuple element:")
+print(tuple1[4])
+print("Assigning a Dictionary element:")
+del dict1["3"]
+print(dict1)
